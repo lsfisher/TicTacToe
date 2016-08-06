@@ -1,0 +1,72 @@
+*{
+	/*border: 1px solid black;*/
+}
+
+#container{
+	display: block;
+	margin: auto;
+	width: 336px;
+}
+h1{
+	text-align: center;
+	margin: auto;
+}
+.playerScore{
+	position: relative;
+	top:20px;
+	display: block;
+	width: 20%;
+	height: 150px;
+	text-align: center;
+
+
+}
+.player1{
+	float: left;
+	background-image:url(images/X.png);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+
+}
+.player2{
+	float: right;
+	background-image:url(images/O.png);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.player{
+	width: 40%;
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+}
+
+#resetButton{
+	display: block;
+	cursor: pointer;
+	padding: 10px;
+	margin: auto;
+}
+#resetButton:hover{
+	border: 2px solid black;
+}
+
+.boardPiece {
+	border: 1px solid black;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #EEE;
+	text-align: center;
+	margin: 5px;
+	border-radius: 20px;
+}
+
+
+.boardPiece:hover{
+	background-color: white;
+	/*border: 3px solid black;*/
+}
