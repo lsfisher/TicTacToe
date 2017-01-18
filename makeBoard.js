@@ -1,14 +1,9 @@
-var BoardMatrix=		[[0,0,0],
-						 [0,0,0],
-						 [0,0,0]];
+//Lucas Fisher
+var BoardMatrix=createEmptyMatrix();
 
-var BoardMatrix_Player1=[[0,0,0],
-						 [0,0,0],
-						 [0,0,0]];
+var BoardMatrix_Player1=createEmptyMatrix();
 
-var BoardMatrix_Player2=[[0,0,0],
-				 		 [0,0,0],
-				 		 [0,0,0]];
+var BoardMatrix_Player2=createEmptyMatrix();
 
 
 var $container=$('#container');
@@ -61,17 +56,11 @@ $('#container').html('');
 
 
 
-BoardMatrix=			[[0,0,0],
-						 [0,0,0],
-						 [0,0,0]];
+BoardMatrix=createEmptyMatrix();
 
-BoardMatrix_Player1=	[[0,0,0],
-						 [0,0,0],
-						 [0,0,0]];
+BoardMatrix_Player1=createEmptyMatrix();
 
-BoardMatrix_Player2=[	 [0,0,0],
-				 		 [0,0,0],
-				 		 [0,0,0]];
+BoardMatrix_Player2=createEmptyMatrix();
 
 
 for(var i=0;i<3;i++){

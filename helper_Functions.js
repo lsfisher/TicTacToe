@@ -1,3 +1,4 @@
+//Lucas Fisher
 var displayBoard= function(){
 	console.log('*************');
 	console.log('Whole Board');
@@ -29,4 +30,10 @@ var switchPlayer=function(){
 		Player="Player1";
 	}
 	$('.player').text(Player);
+};
+
+var createEmptyMatrix=function(){
+return [	 [0,0,0],
+			 [0,0,0],
+			 [0,0,0]];
 };

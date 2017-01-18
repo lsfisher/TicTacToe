@@ -1,4 +1,4 @@
-
+//Lucas Fisher
 var rowChecker=function(row){
 	if(row[0]+row[1]+row[2]===3){
 		console.log("row condition met");
